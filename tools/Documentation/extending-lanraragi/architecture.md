@@ -160,7 +160,8 @@ The base architecture is as follows:
 |  |- tempmaxsize  
 |  |- autotag  
 |  |- blacklist  
-|  |- devmode  
+|  |- devmode
+|  |- autoupdate
 |  |- readorder  
 |  |- motd
 |  |- pagesize  
