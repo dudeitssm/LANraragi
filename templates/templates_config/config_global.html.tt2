@@ -84,8 +84,8 @@
         <h2 class="ih">Check For Updates</h2>
     </td>
     <td>
-        <input id="devmode" name="devmode" class="fa" type="checkbox"> 
-        <label for="devmode">
+        <input id="autoupdate" name="autoupdate" class="fa" type="checkbox"> 
+        <label for="autoupdate">
             <br>If enabled, contact Github to check for updates and display a notification.</label>
     </td>
 </tr>
