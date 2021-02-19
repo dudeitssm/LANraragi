@@ -107,6 +107,12 @@ sub enable_devmode {
     return &get_redis_conf( "devmode", "0" );
 }
 
+sub get_autoupdate { 
+         
+        return &get_redis_conf( "autoupdate", "1" );
+        
+}
+
 sub get_password {
 
     #bcrypt hash for "kamimamita"
