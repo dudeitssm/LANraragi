@@ -30,6 +30,7 @@ sub index {
         tempmaxsize   => $self->LRR_CONF->get_tempmaxsize,
         autotag       => $self->LRR_CONF->enable_autotag,
         devmode       => $self->LRR_CONF->enable_devmode,
+        autoupdate    => $self->LRR_CONF->get_autoupdate,
         nofunmode     => $self->LRR_CONF->enable_nofun,
         apikey        => $self->LRR_CONF->get_apikey,
         enablecors    => $self->LRR_CONF->enable_cors,
