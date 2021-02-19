@@ -152,7 +152,7 @@
 			});
 			[% END %]
 
-			[% IF debugmode %][% ELSE %]
+			[% IF autoupdate %]
 			checkVersion("[% version %]");
 			[% END %]
 
