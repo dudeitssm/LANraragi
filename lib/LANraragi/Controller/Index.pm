@@ -68,7 +68,8 @@ sub index {
         cssdrop      => generate_themes_selector,
         csshead      => generate_themes_header($self),
         usingdefpass => $passcheck,
-        debugmode    => $self->app->mode eq "development"
+        debugmode    => $self->app->mode eq "development",
+        autoupdate   => $self->LRR_CONF->get_autoupdate
     );
 }
 
