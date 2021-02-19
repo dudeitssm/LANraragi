@@ -69,6 +69,7 @@ sub save_config {
         enablecors   => ( scalar $self->req->param('enablecors')   ? '1' : '0' ),
         autotag      => ( scalar $self->req->param('autotag')      ? '1' : '0' ),
         devmode      => ( scalar $self->req->param('devmode')      ? '1' : '0' ),
+        autoupdate   => ( scalar $self->req->param('autoupdate')   ? '1' : '0' ),
         enableresize => ( scalar $self->req->param('enableresize') ? '1' : '0' ),
         blackliston  => ( scalar $self->req->param('blackliston')  ? '1' : '0' ),
         nofunmode    => ( scalar $self->req->param('nofunmode')    ? '1' : '0' )
